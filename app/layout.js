@@ -18,7 +18,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${jetBrains_Mono.variable}`}>
+      <body className={`${jetBrains_Mono.variable} h-screen w-full overflow-auto`}>
         <Header />
         <StairTransition/>
         <PageTransition>{children}</PageTransition>
