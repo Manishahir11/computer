@@ -8,11 +8,12 @@
   --breakpoint-md: 768px;
   --breakpoint-lg: 1024px;
   --breakpoint-xl: 1224px;
-  --color-primary: #1c1c22;
-  --color-secondary: #00ff99;
-  /* --color-accent: #00ff99; */
-  --color-default: #00ff99;
-  --color-hover: #00e187;
+  
+  --color-Primary: #3d85c6;
+  --color-secondary: #f3961c;
+  --color-accent: #00ff99;
+  --color-default: #073763;
+  --color-hover: #073763;
   --default-font-family: 'var(--font-jetbrains-mono)'
   
   
@@ -149,7 +150,7 @@
     @apply border-border outline-ring/50;
   }
   body {
-    @apply text-white bg-primary p-5;
+    @apply text-Primary bg-white  p-5;
   }
   .h1{
     @apply text-[48px] xl:text-[80px] leading-[1.1] font-semibold;

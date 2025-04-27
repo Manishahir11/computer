@@ -19,12 +19,12 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "phone",
-    description: "+91 9773052768",
+    description: "+91 9909812390",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "manishahir41@gmail.com",
+    description: "dangarkaran70@gmail.com",
   },
   {
     icon: <FaMapMarkedAlt />,
@@ -51,12 +51,9 @@ const Contact = () => {
         <div className="flex flex-col xl:flex-row gap-[30px]">
           <div className="xl:h-[54%] order-2 xl:order-none">
             {/* form  */}
-            <form className="flex flex-col gap-6 p-10 bg-[#27272c] rounded-xl">
+            <form className="flex flex-col gap-6 p-10 bg-[#DAD2FF] rounded-xl">
               <h3 className="text-4xl text-default">Let's work together</h3>
-              <p className="text-white/60">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                Pariatur, quasi. Ipsa facere corrupti labore!
-              </p>
+              
                {/* input */}
               <div className="grid grid-cols-2 md:grid-cols-1 gap-6">
                 <Input type="firstName" placeholder="First Name" />
@@ -90,7 +87,7 @@ const Contact = () => {
             <ul className="flex flex-col gap-10">
               {info.map((item,index)=>{
                 return<li key={index} className="flex items-center gap-6">
-                   <div className="w-[50px] h-[50px] xl:w-[72px] xl:h-[72px] rounded-md text-default bg-[#27272c] flex justify-center items-center">
+                   <div className="w-[50px] h-[50px] xl:w-[72px] xl:h-[72px] rounded-md text-white bg-[#27272c] flex justify-center items-center">
                    <div className="text-[28px]">{item.icon}</div>
                    </div>
                    <div className="flex-1">

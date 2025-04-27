@@ -8,19 +8,19 @@ import { FiDownload } from "react-icons/fi";
 
 export default function Home() {
   return (
-    <section className="pt-4 pb-12 xl:pt-0 xl:pb-0">
+    <section className="pt-8 pb-12  xl:pt-0 xl:pb-0">
       <div className="container  mx-auto">
-        <div className="flex  xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
+        <div className="flex pt-36 xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
           {/* into */}
           <div className="text-center xl:text-left">
-            <span className="text-xl xl:text-2xl">Web Developer</span>
+            <span className="text-xl xl:text-2xl"></span>
             <h1 className="h1">
               Hello I`m <br />{" "}
-              <span className="text-default">Manish Ambaliya</span>
+              <span className="text-default">Karan Danger</span>
             </h1>
-            <p className="max-w-[500px] mb-9 text-white/80 text-2xl">
-              i`m a web disigner with extensive experience for over 3 years.
-              expertise is to create and website design, And many more...
+            <p className="max-w-[500px] mb-9 text-black/60 text-2xl">
+              i`m a Multipurpose Health worker with extensive experience for over 1 years.
+              Looking for a role that aligns with my skills and interests.
             </p>
             {/* button Socials media */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
@@ -43,7 +43,7 @@ export default function Home() {
             <Photo />
           </div>
         </div>
-        <Stats/>
+        {/* <Stats/> */}
       </div>
     </section>
   );

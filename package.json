@@ -1,5 +1,5 @@
 {
-  "name": "manish-ahir",
+  "name": "karan-ahir",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -37,5 +37,12 @@
     "eslint-config-next": "15.2.4",
     "gh-pages": "^6.3.0",
     "tailwindcss": "^4"
-  }
+  },
+  "description": "This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).",
+  "main": "layout.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "author": "",
+  "license": "ISC"
 }

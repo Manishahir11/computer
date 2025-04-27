@@ -19,67 +19,32 @@ import WorkSlideBtns from "@/components/ui/WorkSlideBtns";
 const projects = [
   {
     num: "01",
-    category: "Frontend",
-    title: "Portfolio",
+    category: "HOSPITAL STAFF",
+    title: "HOSPITAL STAFF",
     description:
-      "create a project html, css and javascript. fast project in uploaded in github ",
-    stack: [
-      {
-        name: "Html",
-      },
-      {
-        name: "css",
-      },
-      {
-        name: "Javascript",
-      },
-    ],
-    image: "/assets/work/thumb2.png",
-    live: "Live Project",
-    Github: "Github Repository",
+      "BAPA SITARAM HOSPITAL (TALALA)",
+  
+    image: "/staff.jpeg",
+    
   },
   {
     num: "02",
-    category: "FullStack",
-    title: "Hotel-Management",
+    category: "Covid Duty",
+    title: "Covid Duty",
     description:
-      "create a project using php, bootstrap-css and javascript and implement Admin-panel and Payment gateway",
-    stack: [
-      {
-        name: "php",
-      },
-      {
-        name: "Bootstrap.css",
-      },
-      {
-        name: "Javascript",
-      },
-    ],
-    image: "/assets/work/Untitled-2.png",
-    live: "Live Project",
-    Github: "Github Repository",
+      "JAMNAGAR MUNICIPAL CORPORATION",
+  
+    image: "/covid.webp",
+   
   },
   {
     num: "03",
-    category: "FullStack",
-    title: "Uber-clone",
+    category: "Clinic all work",
+    title: "Clinic Work",
     description:
-      "create a Uber-clone project using react and node.js with mongoDb data bash and implement google map and  ",
-    stack: [
-      {
-        name: "Next.js",
-      },
-      {
-        name: "Tailwind.css",
-      },
-      {
-        name: "Javascript",
-      },
-    ],
-    image: "/assets/work/Untitled-1.png",
-    live: "Live Project",
-    Github: "Github Repository",
-  },
+      "Shiv clinic (talala)",
+    image: "/clinic.jpg",
+  }
 ];
 
 const Work = () => {
@@ -104,17 +69,17 @@ const Work = () => {
           <div className="w-full xl:w-[50%] xl:h-[460px] flex flex-col xl:justify-between order-2 xl:order-none">
             <div className="group flex flex-col gap-[30px] h-[50%]">
               {/* project num */}
-              <div className="text-8xl leading-none font-extrabold text-transparent text-outline">
+              <div className="text-8xl leading-none font-extrabold text-black text-outline">
                 {project.num}
               </div>
               {/* project category  */}
-              <h2 className="text-[42px] font-bold leading-none text-white group-hover:text-default transition-all duration-500">
-                {project.category} Projects
+              <h2 className="text-[42px] font-bold leading-none text-primary group-hover:text-default transition-all duration-500">
+                {project.category}
               </h2>
               {/* project description  */}
-              <p className="text-white/60">{project.description}</p>
+              <p className="text-black/60">{project.description}</p>
               {/* stack */}
-              <ul className="flex gap-4">
+              {/* <ul className="flex gap-4">
                 {project.stack.map((item, index) => {
                   return (
                     <li key={index} className="text-xl text-default">
@@ -123,35 +88,9 @@ const Work = () => {
                     </li>
                   );
                 })}
-              </ul>
+              </ul> */}
               <div className="border border-white/20"></div>
-              <div className="flex items-center gap-4">
-                <Link href={project.live}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsArrowUpRight className="text-white text-3xl group-hover:text-default"/>
-                      </TooltipTrigger>
-                      <TooltipContent className="bg-white text-primary">
-                        <p>Live project</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-
-                <Link href={project.Github}>
-                  <TooltipProvider delayDuration={100}>
-                    <Tooltip>
-                      <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
-                        <BsGithub className="text-white text-3xl group-hover:text-default"/>
-                      </TooltipTrigger>
-                      <TooltipContent className="bg-white text-primary">
-                        <p>Github Repository</p>
-                      </TooltipContent>
-                    </Tooltip>
-                  </TooltipProvider>
-                </Link>
-              </div>
+              
             </div>
           </div>
           <div className="w-full xl:w-[50%] ">
