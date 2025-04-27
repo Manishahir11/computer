@@ -23,7 +23,7 @@ const stats = [
 const Stats = () => {
   return (
     <section>
-      <div className="container mx-auto p-5">
+      {/* <div className="container mx-auto p-5">
         <div className="flex flex-wrap gap-6 max-w-[80vw] mx-auto xl:max-w-none">
           {stats.map((items, index) => {
             return (
@@ -49,7 +49,7 @@ const Stats = () => {
             );
           })}
         </div>
-      </div>
+      </div> */}
     </section>
   );
 };

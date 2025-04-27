@@ -10,7 +10,7 @@ export default function Home() {
   return (
     <section className="pt-8 pb-12  xl:pt-0 xl:pb-0">
       <div className="container  mx-auto">
-        <div className="flex pt-36 xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
+        <div className="flex pt-0 xl:pt-36 xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
           {/* into */}
           <div className="text-center xl:text-left">
             <span className="text-xl xl:text-2xl"></span>
@@ -33,7 +33,7 @@ export default function Home() {
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyle="flex gap-6"
-                  iconStyle="w-9 h-9 border-default rounded-full flex justify-center items-center text-default font-base border hover:bg-default hover:text-primary hover:transition-all duration-500"
+                  iconStyle="w-9 h-9 border-default rounded-full flex justify-center items-center text-default font-base border hover:bg-default hover:text-white hover:transition-all duration-500"
                 />
               </div>
             </div>

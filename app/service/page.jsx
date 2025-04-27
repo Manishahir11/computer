@@ -52,7 +52,7 @@ const Service = () => {
             return (
               <div
                 key={index}
-                className=" p-3 rounded-md flex-1 flex flex-col justify-center gap-6 group  bg-[#f5e1e1]"
+                className=" p-3 rounded-md flex-1 flex flex-col justify-center gap-6 group  bg-[#DAD2FF]"
               >
                 {/* top */}
                 <div className="w-full flex justify-between items-center ">
