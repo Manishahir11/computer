@@ -69,9 +69,9 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a Service</SelectLabel>
-                    <SelectItem value='est'>Web Development</SelectItem>
-                    <SelectItem value='cst'>UI/UX Design</SelectItem>
-                    <SelectItem value='mst'>Logo Design</SelectItem>
+                    <SelectItem value='est'>Hospital Staff</SelectItem>
+                    <SelectItem value='cst'>Clinic Work</SelectItem>
+                    <SelectItem value='mst'>Data Entry</SelectItem>
                   
                   </SelectGroup>
                 </SelectContent>
