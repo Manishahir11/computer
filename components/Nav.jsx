@@ -5,14 +5,13 @@ import { usePathname } from "next/navigation";
 const links = [
   { name: "Home", path: "/" },
   { name: "Service", path: "/service" },
-  { name: "Resume", path: "/resume" },
-  { name: "Work", path: "/work" },
+  { name: "Custom", path: "/custom" },
+  { name: "Sale", path: "/sale" },
   { name: "Contact", path: "/contact" },
 ];
 
 const Nav = () => {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <nav className="flex items-center gap-8">

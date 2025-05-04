@@ -32,6 +32,46 @@ const info = [
     description: "Devbhoomi Dwarka, Gujrat, India 361315",
   },
 ];
+const about = {
+  title: "About Me",
+  description:
+    "Looking for a challenging role so that I can use my skills and capabilities through sincere dedication and hard work for successful career.",
+  info: [
+    {
+      fieldName: "Name",
+      fieldValue: "jignesh Danger",
+    },
+    {
+      fieldName: "Phone",
+      fieldValue: "+91 7990936307",
+    },
+    {
+      fieldName: "Experience",
+      fieldValue: "3+ Years",
+    },
+    {
+      fieldName: "Skype",
+      fieldValue: "jignesh ahir",
+    },
+    {
+      fieldName: "Nationality",
+      fieldValue: "Indian",
+    },
+    {
+      fieldName: "Email",
+      fieldValue: "dangarjignesh@gmail.com",
+    },
+    {
+      fieldName: "Address",
+      fieldValue: "106, Silver Mount Complex,Opp SBI Bank, Pedak Rode Rajkot-360003",
+    },
+    {
+      fieldName: "Languages",
+      fieldValue: "English, Hindi, Gujarati ",
+    },
+  ],
+};
+
 
 const Contact = () => {
   return (
@@ -53,8 +93,8 @@ const Contact = () => {
             {/* form  */}
             <form className="flex flex-col gap-6 p-10 w-auto xl:w-full bg-[#DAD2FF] rounded-xl">
               <h3 className="text-4xl text-default">Let's work together</h3>
-              
-               {/* input */}
+
+              {/* input */}
               <div className="grid grid-cols-2 md:grid-cols-1 gap-6">
                 <Input type="firstName" placeholder="First Name" />
                 <Input type="lastName" placeholder="Last Name" />
@@ -69,31 +109,36 @@ const Contact = () => {
                 <SelectContent>
                   <SelectGroup>
                     <SelectLabel>Select a Service</SelectLabel>
-                    <SelectItem value='est'>Hospital Staff</SelectItem>
-                    <SelectItem value='cst'>Clinic Work</SelectItem>
-                    <SelectItem value='mst'>Data Entry</SelectItem>
-                  
+                    <SelectItem value='est'>Software </SelectItem>
+                    <SelectItem value='cst'>Hardwere</SelectItem>
                   </SelectGroup>
                 </SelectContent>
               </Select>
               {/* text area */}
-              <Textarea className="h-[200px]" placeholder='Type Your Message here.'/>
+              <Textarea className="h-[200px]" placeholder='Type Your Message here.' />
               {/* send button */}
               <Button size='md' className='max-w-40 py-2'>Send Message</Button>
             </form>
           </div>
           {/* info  */}
-          <div className="flex-1 flex items-center xl:justify-end order-1 xl:order-none mb-8 xl:mb-0">
+          <div className="flex flex-col items-center xl:justify-center order-1 xl:order-none mb-8 xl:mb-0">
+
+            <h3 className="text-4xl font-bold">{about.title}</h3>
+            
+              <p className="max-w-[50%] text-black/60 mx-auto xl:mx-0">
+                {about.description}
+              </p>
+            
+
+
             <ul className="flex flex-col gap-10">
-              {info.map((item,index)=>{
-                return<li key={index} className="flex items-center gap-6">
-                   <div className="w-[50px] h-[50px] xl:w-[72px] xl:h-[72px] rounded-md text-white bg-[#27272c] flex justify-center items-center">
-                   <div className="text-[28px]">{item.icon}</div>
-                   </div>
-                   <div className="flex-1">
-                    <p className="text-white/60">{item.title}</p>
-                    <h3 className="text-xl">{item.description}</h3>
-                   </div>
+              {about.info.map((item, index) => {
+                return <li key={index} className="flex items-center gap-6">
+                
+                  <div className="flex-1">
+                    <h3 className="text-xl">{item.fieldName}</h3>
+                    <p className="black-white/60">{item.fieldValue}</p>
+                  </div>
                 </li>
               })}
             </ul>

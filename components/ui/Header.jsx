@@ -9,17 +9,17 @@ const header = () => {
     <header className="py-8 xl:py-12">
       <div className="container mx-auto flex items-center justify-between">
         <Link href={"/"}>
-          <h1 className="text-4xl mx-auto font-semibold">
-            Karan<span className="text-default">.</span>
+          <h1 className="w-12 h-12">
+           <img src="/logo.jpeg" alt="" />
           </h1>
         </Link>
 
         <div className="hidden xl:flex items-center gap-8">
           {/* Desktop navbar */}
-          <Nav></Nav>
-          <Link href={"/contact"}>
+          <Nav />
+          <Link href={"/cart"}>
             <Button variant="default" className="px-8 py-4">
-              Hire me
+              Cart
             </Button>
           </Link>
         </div>

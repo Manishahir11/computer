@@ -15,21 +15,32 @@ export default function Home() {
           <div className="text-center xl:text-left">
             <span className="text-xl xl:text-2xl"></span>
             <h1 className="h1">
-              Hello I`m <br />{" "}
-              <span className="text-default">Karan Danger</span>
+              SANSKRUTI COMPUTERS <br />{" "}
+              <span className="text-default text-sm">We help to fix the Problem</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/60 text-2xl">
-              i`m a Multipurpose Health worker with extensive experience for over 1 years.
-              Looking for a role that aligns with my skills and interests.
+              Install macOS in Assemble & Branded System
+            </p>
+            <p className="max-w-[500px] mb-9 text-black/60 text-2xl">
+              Desktop / Laptop
+            </p>
+            <p className="max-w-[500px] mb-9 text-black/60 text-2xl">
+              Build Custom System as Your Requirement & also Gaming System
+            </p>
+            <p className="max-w-[500px] mb-9 text-black/60 text-2xl">
+              Motherboard and laptops Chip level repairing
+            </p>
+            <p>
+              Data recovery. Software installation Virus removal
             </p>
             {/* button Socials media */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button variant="outline" >
+              <Button variant="outline" >
                 <span className="font-semibold text-xl ">Download CV</span>
                 <FiDownload />
               </Button>
-              
-              
+
+
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyle="flex gap-6"

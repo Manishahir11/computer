@@ -23,12 +23,12 @@ const Photo = () => {
           className="w-[310px] xl:w-[540px] h-[298px]  xl:h-[498px]  absolute"
         >
           <Image
-            src="/karan.png"
+            src="/computer.png"
             priority
             quality={100}
-            fill="transparent"
+            fill
             alt="no photo"
-            className="object-center"
+            className="object-contain"
           />
         </motion.div>
       </motion.div>
