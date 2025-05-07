@@ -20,10 +20,10 @@ const Photo = () => {
             opacity: 1,
             transition: { delay: 2.4, duration: 0.4, ease: "easeInOut" },
           }}
-          className="w-[310px] xl:w-[540px] h-[298px]  xl:h-[498px]  absolute"
+          className="w-[280px] xl:w-[490px] h-[280px]  xl:h-[498px]  absolute"
         >
           <Image
-            src="/computer.png"
+            src="/comp.png"
             priority
             quality={100}
             fill

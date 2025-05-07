@@ -4,6 +4,7 @@ export const processor = [
     {
           id : 1,
             name: "please select",
+            avatar:"/computer.png",
             Item: [
               
             ],
@@ -11,6 +12,7 @@ export const processor = [
     {
         id : 2,
           name: "Intel",
+          avatar:"/intel.webp",
           Item: [
             //  6th & 7th gen 
                 {
@@ -203,6 +205,7 @@ export const processor = [
   {
     id : 3,
       name: "AMD",
+      avatar:"/amd.webp",
       Item: [
         //  6th & 7th gen 
             {

@@ -10,12 +10,14 @@ export default function Home() {
   return (
     <section className="pt-8 pb-12  xl:pt-0 xl:pb-0">
       <div className="container  mx-auto">
-        <div className="flex pt-0 xl:pt-36 xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
+        <div className="flex pt-0 xl:pt-20 xl:flex-row flex-col-reverse items-center justify-between xl:pt- xl:pb-24">
           {/* into */}
           <div className="text-center xl:text-left">
             <span className="text-xl xl:text-2xl"></span>
             <h1 className="h1">
-              SANSKRUTI COMPUTERS <br />{" "}
+              SANSKRUTI <br />
+              {" "}
+              <span>COMPUTERS</span><br />
               <span className="text-default text-sm">We help to fix the Problem</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-black/60 text-2xl">

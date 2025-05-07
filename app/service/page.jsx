@@ -7,28 +7,42 @@ import { motion } from "framer-motion";
 const services = [
   {
     num: "01",
-    title: "Healthcare Solutions",
+    title: "Build Custom System ",
     description:
       "Sites makes collaborating easy with real-time co-editing and the same powerful sharing controls that you're used to in Drive and Docs. Just like in Docs, you can work together and see each I  will build website, full stack developer, front end developer",
     href: "",
   },
   {
     num: "02",
-    title: "Clinic all work",
+    title: "Gaming System",
     description:
       "creating user-friendly and engaging digital products by understanding user needs, designing user flows, crafting wire-frames and prototypes, and ensuring intuitive interfaces through usability testing and iterative design improvements. ",
     href: "",
   },
   {
     num: "03",
-    title: "Computer work",
+    title: "Motherboard and laptops Chip level repairing",
     description:
       "I create professional, minimalist, and modern logos that reflect your brand's identity. My designs are clean, bold, and effective at any size. Minimalist, luxury, custom, modern, unique, beauty, fashion, real estate",
     href: "",
   },
   {
     num: "04",
-    title: "Hospital Staff Services",
+    title: "Operating System Installation",
+    description:
+      "Competitive, Creative and Dynamic Individual known for consistently exceeding expectations. Worked on several projects with total dedication and getting the desired goals for the client.",
+    href: "",
+  },
+  {
+    num: "05",
+    title: "Software Problem",
+    description:
+      "Competitive, Creative and Dynamic Individual known for consistently exceeding expectations. Worked on several projects with total dedication and getting the desired goals for the client.",
+    href: "",
+  },
+  {
+    num: "06",
+    title: "Hardware Problem",
     description:
       "Competitive, Creative and Dynamic Individual known for consistently exceeding expectations. Worked on several projects with total dedication and getting the desired goals for the client.",
     href: "",

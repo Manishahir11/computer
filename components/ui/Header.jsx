@@ -9,8 +9,9 @@ const header = () => {
     <header className="py-8 xl:py-12">
       <div className="container mx-auto flex items-center justify-between">
         <Link href={"/"}>
-          <h1 className="w-12 h-12">
-           <img src="/logo.jpeg" alt="" />
+          <h1 className="w-12 h-12 flex flex-col items-center justify-center">
+           <img src="/logo.png" fill property  className="object-bottom h-12 w-12" alt="" />
+           <span>SANSKRUTI COMPUTERS</span>
           </h1>
         </Link>
 

@@ -3,10 +3,14 @@
 
 import { ScrollArea } from "@/components/ui/scroll-area";
 import { motion } from "framer-motion";
+import Form from "@/components/Form";
 
 import { useState } from "react";
 
 const custom = () => {
+  const [show, setShow] = useState([]);
+
+  console.log("show",show)
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -20,10 +24,13 @@ const custom = () => {
       }}
       className="min-h-[80vh] flex items-center justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto">
-        <img src="/computer.png" alt="" />
+      <div className="container mx-auto flex justify-center items-center">
+        <div className="h-[500px] w-[500px]">
+
+        <img src={show} alt=""  className="bg-cover "/>
+        </div>
       </div>
-      <div className="container mx-auto">
+      <div className="container mx-auto h-full overflow-auto">
         <h1 className="text-4xl">Custom Pc </h1>
         <p>
           Build your dream custom PC with our intuitive online tool! Choose
@@ -45,12 +52,7 @@ const custom = () => {
           </div>
         </div>
         <div className="w-full h-1 bg-Primary"></div>
-        <form
-          
-          className="mt-5  grid grid-cols-1 justify-around xl:grid-cols-2"
-        >
-         
-        </form>
+        <Form  setShow={setShow} show={show} />
       </div>
     </motion.div>
   );
