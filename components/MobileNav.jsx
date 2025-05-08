@@ -7,8 +7,8 @@ import { CiMenuFries } from "react-icons/ci";
 const links = [
   { name: "Home", path: "/" },
   { name: "Service", path: "/service" },
-  { name: "Resume", path: "/resume" },
-  { name: "Work", path: "/work" },
+  { name: "Custom", path: "/custom" },
+  { name: "Sale", path: "/sale" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -24,7 +24,8 @@ const MobileNav = () => {
         <div className="mt-32 mb-40 text-center text-2xl">
           <Link href={"/"}>
             <h1 className="text-4xl font-semibold text-white">
-              Karan<span className="text-accent">.</span>
+           <img src="/logo.png" fill property  className="object-bottom h-12 w-12" alt="" />
+              
             </h1>
           </Link>
           

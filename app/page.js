@@ -38,7 +38,7 @@ export default function Home() {
             {/* button Socials media */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
               <Button variant="outline" >
-                <span className="font-semibold text-xl ">Download CV</span>
+                <span className="font-semibold text-xl ">Download</span>
                 <FiDownload />
               </Button>
 

@@ -385,7 +385,7 @@ const Form = ({ setShow, show }) => {
     <form className="form flex flex-col gap-4">
       <ScrollArea className="h-[400px]">
         <div
-          className="grid grid-cols-2 justify-around gap-4 "
+          className="grid grid-cols-1 xl:grid-cols-2  justify-around gap-4 "
           // ref={componentsPdf}
         >
           <div className="">
@@ -1399,7 +1399,7 @@ const Form = ({ setShow, show }) => {
         </table>
       </div>
       <button
-        className="bg-Primary text-2xl text-white p-2 rounded-2xl text-center w-96"
+        className="bg-Primary text-2xl text-white p-2 rounded-2xl text-center w-45 xl:w-96"
         onClick={(e) => {
           e.preventDefault();
           generatePdf();
