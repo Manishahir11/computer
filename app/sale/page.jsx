@@ -24,6 +24,7 @@ const sale = () => {
   const [selectProcessor, setSelectProcessor] = useState()
 
   console.log(selectProcessor)
+  
 
   return (
 
@@ -45,18 +46,28 @@ const sale = () => {
           className="flex flex-col xl:flex-row justify-center gap-[60px]"
 
         >
-          <Link href={"/cart"} selectProcessor={selectProcessor}>
-            <h1 className="text-5xl">
-
-              <FaCartPlus  />
-            </h1>
-          </Link>
+         
+          
           
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-1 gap-6">
-            <TabsTrigger value="processors">processors</TabsTrigger>
-            <TabsTrigger value="motherbord">MotherBord</TabsTrigger>
-            <TabsTrigger value="graphicsCard">GraphicsCard</TabsTrigger>
-            <TabsTrigger value="rams">RAMS</TabsTrigger>
+            <TabsTrigger value="processors"> PROCESSOR</TabsTrigger>
+            <TabsTrigger value="MotherBoard">MOTHERBOARD</TabsTrigger>
+            <TabsTrigger value="CpuCooler">CPU COOLER</TabsTrigger>
+            <TabsTrigger value="Ram">RAM</TabsTrigger>
+            <TabsTrigger value="GraphicsCard">GRAPHICS CARD</TabsTrigger>
+            <TabsTrigger value="InternalSsd">INTERNAL SSD</TabsTrigger>
+            <TabsTrigger value="HardDrive">HARD DRIVE</TabsTrigger>
+            <TabsTrigger value="SMPS">POWER SUPPLY</TabsTrigger>
+            <TabsTrigger value="Cabinet">CABINET</TabsTrigger>
+            <TabsTrigger value="CaseFans">CASE FANS</TabsTrigger>
+            <TabsTrigger value="Cables">CUSTOM CABLES</TabsTrigger>
+            <TabsTrigger value="Monitor">MONITOR</TabsTrigger>
+            <TabsTrigger value="keyboard">KEYBOARD</TabsTrigger>
+            <TabsTrigger value="Mouse">MOUSE</TabsTrigger>
+            <TabsTrigger value="Headset">HEADSET</TabsTrigger>
+            <TabsTrigger value="UPS">UPS</TabsTrigger>
+            <TabsTrigger value="ExSsd">EXTERNAL SSD</TabsTrigger>
+            <TabsTrigger value="PowerStrip">POWER STRIP</TabsTrigger>
           </TabsList>
 
           {/* content */}

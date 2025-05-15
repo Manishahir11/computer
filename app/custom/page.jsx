@@ -22,10 +22,10 @@ const custom = () => {
           ease: "easeIn",
         },
       }}
-      className="min-h-[80vh] flex-col xl:flex items-center justify-center py-12 xl:py-0"
+      className="min-h-[80vh] w-full  flex flex-col xl:flex-row items-center justify-center py-12 xl:py-0"
     >
-      <div className="container mx-auto flex-col xl:flex justify-center items-center">
-        <div className="h-[300px] xl:h-[500px] w-[300px] xl:w-[500px]">
+      <div className="container mx-auto flex justify-center items-center">
+        <div className="h-[500px] w-[500px]">
 
         <img src={show} alt=""  className="bg-cover "/>
         </div>
@@ -41,12 +41,12 @@ const custom = () => {
         <h3 className="text-3xl text-black">00.0</h3>
         <h3 className="text-black/40">including GST</h3>
         <div className="w-full h-1 bg-Primary"></div>
-        <div className="flex items-center justify-between">
-          <div className="flex-col xl:flex items-center justify-around">
+        <div className="flex flex-col items-start xl:flex-row xl:items-center justify-between">
+          <div className="flex items-center justify-around">
             <h3 className="text-3xl text-black">Availability:</h3>
             <h3 className="text-black/40 text-2xl">In Stock</h3>
           </div>
-          <div className="flex-col items-center justify-around my-4">
+          <div className="flex items-center justify-around my-4">
             <h3 className="text-3xl text-black">SKU:</h3>
             <h3 className="text-black/40 text-2xl">CUSTOM PC</h3>
           </div>
